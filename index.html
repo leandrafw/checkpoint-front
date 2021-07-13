@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://bit.ly/2UHPBiF" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Sakura animes</title>
+  </head>
+
+  <body>
+
+    <main id="conteudo">
+      <h1>Sakura animes</h1>
+      <h2>O melhor dos animes em um só lugar</h2>
+
+          <div class="bloco">
+            <div id="login"> 
+                <form method="post" action="index.html">
+                <h1>Cadastre-se</h1>
+
+                <!-- cadastro nome de usuário -->
+                <input type="text" name="user" id="user" aria-label="Usuário" placeholder="Usuário" required>
+                <br /><br />
+                <!-- cadastro email -->
+                <input type="email" name="email" id="email" aria-label="Email" placeholder="insira seu email" required>
+                <br /><br />
+                <!-- cadastro senha -->
+                <input type="password" name="senha" id="senha" aria-label="Senha" placeholder="Senha" required>
+                <br /><br />
+                <input type="password" name="confirm" id="confirm" aria-label="Confirme sua senha" placeholder="Confirme sua senha" required>
+                <br /><br />
+                <!-- campo dos termos e condições -->
+                  <div id="checkbox">
+                    <input type="checkbox" name="lembre" id="lembre" placeholder="lembre" required> 
+                       <label for="lembre">Li e aceito os termos e condições</label>
+                       <br /><br />
+                  </div>
+                   <!-- Botões de envio e cancelamento -->
+                  <div id="botoes">
+                    <button type="submit" class="botao">Cadastrar</button> 
+                    <button type="reset" class="botao" id="cancel">Cancelar</button> 
+
+                    <img src="https://bit.ly/3wAtS9E" alt="anime">
+                
+                </div>
+              </form>
+            </div>
+          </div>
+    </main>
+  </body>
+</html>
